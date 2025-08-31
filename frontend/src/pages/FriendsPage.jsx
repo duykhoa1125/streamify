@@ -3,7 +3,7 @@ import React from "react";
 import { getUserFriends } from "../lib/api";
 import { UsersIcon } from "lucide-react";
 import NoFriendsFound from "../components/NoFriendsFound";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import FriendCard from "../components/FriendCard";
 import useAuthUser from "../hooks/useAuthUser";
 import ErrorBoundary from "../components/ErrorBoundary";

@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import NoFriendsFound from "../components/NoFriendsFound";
 import { capitalize, getLanguageFlag } from "../util/language";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import FriendCard from "../components/FriendCard";
 
 const HomePage = () => {
